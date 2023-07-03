@@ -16,6 +16,16 @@
   ],
   "author": "Anubhav Jain",
   "license": "ISC",
+  "contributors": [
+    {
+      "name": "Anubhav Jain",
+      "email": "anubhavj660@gmail.com"
+    },
+    {
+      "name": "Sonali Jain",
+      "email": "sonalijn20@gmail.com"
+    }
+  ],
   "dependencies": {
     "xml2js": "~0.4.0",
     "xmlbuilder": "~2.4.0",
