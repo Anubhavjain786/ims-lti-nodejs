@@ -1,0 +1,32 @@
+{
+  "name": "ims-lti-nodejs",
+  "version": "1.0.0",
+  "description": "This package is used for validating LTI OAuth request.",
+  "main": "src/ims-lti.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LTI",
+    "IMS-LTI",
+    "NodeJS",
+    "ims",
+    "OAuth",
+    "lti"
+  ],
+  "author": "Anubhav Jain",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "~0.4.0",
+    "xmlbuilder": "~2.4.0",
+    "node-uuid": "~1.4.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "mocha": "^2.1.0",
+    "mocha-lcov-reporter": "0.0.1",
+    "mocha-multi": "^0.6.0",
+    "redis": "^0.12.1",
+    "should": "^4.6.1"
+  }
+}
