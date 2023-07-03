@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/ims-lti-nodejs"
+  },
   "keywords": [
     "LTI",
     "IMS-LTI",
