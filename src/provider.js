@@ -81,7 +81,9 @@
       correct_version =
         require("./ims-lti").supported_versions.indexOf(body.lti_version) !==
         -1;
-      has_resource_link_id = body.resource_link_id != null;
+      has_resource_link_id = body.hasOwnProperty("resource_link_id")
+        ? body.resource_link_id != null
+        : true;
       omits_content_item_params =
         body.resource_link_id == null &&
         body.resource_link_title == null &&
